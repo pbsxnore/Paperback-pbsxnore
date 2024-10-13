@@ -1,7 +1,7 @@
 {
   "name": "extensions-viet",
   "version": "2.0.0",
-  "homepage": "https://github.com/Huynh12345678/Extensions-Viet/",
+  "homepage": "https://github.com/pbsxnore/Paperback-pbsxnore",
   "description": "Vietnamese sources for Paperback",
   "scripts": {
     "start": "tsc && node dist/api.js",
@@ -10,13 +10,13 @@
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
     "bundle": "paperback bundle",
     "serve": "paperback serve -p 8000",
-    "predeployWithBundle": "paperback bundle && cp core/index.html bundles",
+    "predeployWithBundle": "paperback bundle && cp src/index.html bundles",
     "deployWithBundle": "gh-pages -d bundles",
     "predeployWithoutBundle": "",
     "deployWithoutBundle": "gh-pages -d bundles",
     "test-src": "npx paperback test"
   },
-  "author": "Huynhzip3",
+  "author": "pbsxnore",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.3.4",
